@@ -1,5 +1,5 @@
 let arr=["john.doe@gmail.com", "invalidemail.com", "hello@domain.net", " @out.com"];
- if(arr.length==1){
+ if(Array.isArray(arr)==false){
     console.log("mang khong hop le");
 }
 if(arr.length>0){
